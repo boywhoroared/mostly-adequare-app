@@ -1,0 +1,22 @@
+{
+  "name": "mostly-adequate-app",
+  "version": "0.0.0",
+  "description": "Example application from Prof. Frisby's Mostly Adequate Guide to FP in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack-dev-server --mode development --open --hot"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "ramda": "^0.26.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  }
+}
